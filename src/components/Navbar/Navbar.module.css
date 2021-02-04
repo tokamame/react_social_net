@@ -1,0 +1,14 @@
+.nav {
+  grid-area: nav;
+  background-color: burlywood;
+  height: 100%;
+  padding-left: 7px;
+}
+
+.item {
+  color:white;
+}
+
+.item.active {
+  color: gold;
+}
