@@ -11,8 +11,8 @@ const Post = (props) => {
       {props.message}
       <div>
         <span>
-          {props.lcounter} <img className={s.lcounter_img} src="https://freeiconshop.com/wp-content/uploads/edd/like-outline.png" alt=""/></span>
-        <span>like</span>
+           <img className={s.lcounter_img} src="https://freeiconshop.com/wp-content/uploads/edd/like-outline.png" alt=""/>{props.lcounter}</span>
+        <span> like</span>
       </div>
     </div>
   );
