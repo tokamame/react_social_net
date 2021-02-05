@@ -1,10 +1,18 @@
 .header {
   grid-area: header;
   background-color:rgb(138, 190, 173);
+
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .header img {
   width: 50px;
   padding-top: 5px;
   padding-left: 10px;
+  vertical-align: middle;
+}
+
+.logoText {
+  margin-left: 30px;
 }
