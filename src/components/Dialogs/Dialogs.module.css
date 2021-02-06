@@ -7,9 +7,11 @@
     padding: 10px;
     color: white;
 }
+
 .dialogsItems img {
     width: 40px;
 }
+
 .dialogsItems a.active {
     color: gold;
 }
