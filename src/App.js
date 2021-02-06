@@ -10,19 +10,15 @@ import Profile from "./components/Profile/Profile";
 const App = () => {
     return (
         <BrowserRouter>
-        <div className='app-wrapper'>
-            <Header/>
-            <Navbar/>
-            <div className='app-wrapper-content'>
-                <Route path='/profile' component={Profile} />
-                <Route path ='/dialogs' component={Dialogs} />
-
+            <div className='app-wrapper'>
+                <Header/>
+                <Navbar/>
+                <div className='app-wrapper-content'>
+                    <Route path='/profile' component={Profile}/>
+                    <Route path='/dialogs' component={Dialogs}/>
+                </div>
             </div>
-
-
-        </div>
-</BrowserRouter>
-
+        </BrowserRouter>
     );
 }
 
