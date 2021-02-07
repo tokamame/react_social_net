@@ -9,7 +9,7 @@ const MyPosts = (props) => {
 
     let addPost = () => {
         let text = newPostElement.current.value;
-        alert(`You typed ${text}`);
+        props.addPost(text);
     }
 
     return (
